@@ -5,10 +5,11 @@
 if __name__ == "__main__":
     # Определим универсальное множество
     u = set("abcdefghijklmnopqrstuvwxyz")
-    A = {"a", "b", "h", "k", "o", "r"}
-    B = {"b", "g", "h", "l", "s"}
-    C = {"k", "l", "z"}
-    D = {"g", "i", "p", "q", "u", "v"}
+    A = {"b", "d", "f", "g", "l", "u"}
+    B = {"d", "e", "f", "m", "n", "z"}
+    C = {"h", "i", "r", "x", "y"}
+    D = {"a", "e", "f", "k", "r", "s", "x"}
+
     x = (A.intersection(B)).union(D)
     print(f"x = {x}")
     # дополнения множеств
